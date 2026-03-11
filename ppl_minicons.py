@@ -8,7 +8,8 @@ from tqdm import tqdm
 import pandas as pd
 import argparse
 import os
-
+import numpy as np
+import torch
 
 CHECKPOINTS = [10]
 HF_REPO = 'parallelm'
@@ -22,6 +23,7 @@ parser.add_argument('eval_data', help='Evaluation data')
 # Get args
 args = parser.parse_args()
 model_name = args.model_name
+language = model_name.split('_')[2]
 ppl_type = args.ppl_type
 la = model_name.split('_')[2]
 # Get path to model
@@ -39,6 +41,10 @@ elif eval_data=='de-arp':
     test_file ='wmt19-ende-arp.de'
 elif eval_data =='de-p':
     test_file = 'wmt19-ende-p.de'
+elif eval_data =='flores':
+    test_file = f'flores/{language}.txt'
+elif eval_data =='parallel10':
+    test_file =f'parallel10/{language}/test/{language}.txt'
 else:
     raise ValueError(f"Unsupported eval_data: {eval_data}")
 
@@ -50,16 +56,41 @@ ppl_df = pd.DataFrame({
     # "Original": file_text_sequences, # to debug
 })
 
-device = "cuda"
+def compute_sentence_mrr(model, tokenizer, sent_batch):
+    mrrs = []
+
+    for sent in tqdm(sent_batch):
+        input_ids = tokenizer(sent, return_tensors="pt").input_ids[0]
+        inputs = input_ids[:-1].unsqueeze(0)
+        labels = input_ids[1:]
+
+        with torch.no_grad():
+            logits = model(inputs).logits[0]
+
+        preds_logits = logits.cpu().numpy()
+        labels_np = labels.cpu().numpy().reshape(-1, 1)
+
+        gold_logits = np.take_along_axis(preds_logits, labels_np, axis=1)
+        higher_counts = np.sum(preds_logits > gold_logits, axis=1)
+        ranks = higher_counts + 1
+
+        sent_mrr = np.mean(1.0 / ranks)
+        mrrs.append(sent_mrr)
+    return mrrs
+
+
+device = "cpu"
 for j, ckpt in enumerate(CHECKPOINTS):
     print(f"Epoch:{ckpt}")
-    ilm_model = scorer.IncrementalLMScorer(f'{model_path}', 'cuda', revision=f'checkpoint-{ckpt}')
-
+    ilm_model = scorer.IncrementalLMScorer(f'{model_path}', device, revision=f'checkpoint-{ckpt}')
+    model = GPT2LMHeadModel.from_pretrained(f'{model_path}', revision=f'checkpoint-{ckpt}').to(device)
+    tokenizer = AutoTokenizer.from_pretrained(f'{model_path}', use_fast=True)
+    vocab_size = model_name.split('_')[4]
     metrics = []
     failed_batch=0
     for i in tqdm(range(0, len(test_texts), BATCH_SIZE)):
         batch_text = test_texts[i:i+BATCH_SIZE]
-        batch_text = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=512, add_special_tokens=False)) for x in batch_text]
+        batch_text = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False)) for x in batch_text]
 
         if ppl_type=='sent-nll':
             nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
@@ -71,14 +102,16 @@ for j, ckpt in enumerate(CHECKPOINTS):
             nll = [math.exp(x) for x in nll]
         elif ppl_type =='bpb':
             nll_sum = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
-            bytes_seq = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=512, add_special_tokens=False)).encode('utf-8') for x in batch_text]
+            bytes_seq = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False)).encode('utf-8') for x in batch_text]
             assert len(nll_sum)==len(bytes_seq)
             nll = [(x/len(y))/math.log(2) for x,y in zip(nll_sum, bytes_seq)]
         elif ppl_type =='cpb':
             nll_sum = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
             chars_seq = [
-                len(tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=512, add_special_tokens=False))) for x in batch_text]
+                len(tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False))) for x in batch_text]
             nll = [(x / y)/math.log(2) for x, y in zip(nll_sum, chars_seq)]
+        elif ppl_type=='mrr':
+            nll=compute_sentence_mrr(model, tokenizer,batch_text)
         else:
             raise ValueError(f"Unsupported ppl_type: {ppl_type}")
         metrics.extend(nll)
