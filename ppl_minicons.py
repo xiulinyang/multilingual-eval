@@ -63,6 +63,7 @@ def compute_sentence_mrr(model, tokenizer, sent_batch):
         input_ids = tokenizer(sent, return_tensors="pt").input_ids[0]
         if len(input_ids) < 2:
             mrrs.append(None)
+            continue
         inputs = input_ids[:-1].unsqueeze(0)
         labels = input_ids[1:]
 
