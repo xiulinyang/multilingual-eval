@@ -61,6 +61,8 @@ def compute_sentence_mrr(model, tokenizer, sent_batch):
 
     for sent in tqdm(sent_batch):
         input_ids = tokenizer(sent, return_tensors="pt").input_ids[0]
+        if len(input_ids) < 2:
+            continue
         inputs = input_ids[:-1].unsqueeze(0)
         labels = input_ids[1:]
 
@@ -94,7 +96,6 @@ for j, ckpt in enumerate(CHECKPOINTS):
 
         if ppl_type=='sent-nll':
             nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
-
         elif ppl_type=='token-nll':
             nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.mean(0).item())
         elif ppl_type=='ppl':
