@@ -59,7 +59,7 @@ ppl_df = pd.DataFrame({
 def compute_sentence_mrr(model, tokenizer, sent_batch):
     mrrs = []
 
-    for sent in tqdm(sent_batch):
+    for sent in sent_batch:
         input_ids = tokenizer(sent, return_tensors="pt").input_ids[0]
         if len(input_ids) < 2:
             continue
