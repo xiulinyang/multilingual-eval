@@ -30,6 +30,7 @@ for split in splits:
                     for model_size in model_sizes:
                         for train_data in training_data:
                             token_num = 0
+                            print(f'parallelm/gpt2_{model_size}_{lang}_{tok_alg}_{vocab_size}_{train_data}_42')
                             tokenizer = AutoTokenizer.from_pretrained(f'parallelm/gpt2_{model_size}_{lang}_{tok_alg}_{vocab_size}_{train_data}_42')
                             print(f'models/{lang}_{vocab_size}_{tok_alg}')
 
