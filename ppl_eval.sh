@@ -1,13 +1,13 @@
 #!/bin/bash
 
 
-LANGS=('ZH' 'FI' 'PL' 'TR' 'RU' 'FR' 'KO' 'AR')
+LANGS=('DE' 'EN' 'ZH' 'FI' 'PL' 'TR' 'RU' 'FR' 'KO' 'AR')
 #LANGS=('EN')
 #LANGS=('FR' 'KO' 'AR')
 VOCABS=(8192 32768 49152 65536 81920)
-#PPL_TYPES=('ppl' 'token-nll' 'bpb' 'sent-nll' 'cpb' 'mrr')
-PPL_TYPES=('mrr')
-EVAL_DATA=('parallel10')
+PPL_TYPES=('ppl' 'token-nll' 'bpb' 'sent-nll' 'cpb' 'mrr')
+#PPL_TYPES=('mrr')
+EVAL_DATA=('pud')
 #EVAL_DATA=('en')
 TOKENIZER_TYPES=("bpe")
 MODEL_SIZE="gpt2_small"

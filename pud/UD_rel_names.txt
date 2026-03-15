@@ -1,0 +1,6 @@
+ccomp
+csubj
+iobj
+nsubj
+obj
+xcomp

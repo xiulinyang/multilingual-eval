@@ -1,0 +1,38 @@
+# newdoc id = n01001
+# sent_id = n01001011
+# text = “While much of the digital transition is unprecedented in the United States, the peaceful transition of power is not,” Obama special assistant Kori Schulman wrote in a blog post Monday.
+1	“	"	PUNCT	``	_	20	punct	20:punct	SpaceAfter=No
+2	While	while	SCONJ	IN	_	9	mark	9:mark	_
+3	much	much	ADJ	JJ	Degree=Pos	9	nsubj	9:nsubj	_
+4	of	of	ADP	IN	_	7	case	7:case	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
+6	digital	digital	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+7	transition	transition	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
+9	unprecedented	unprecedented	ADJ	JJ	Degree=Pos	20	advcl	20:advcl:while	_
+10	in	in	ADP	IN	_	13	case	13:case	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	_
+12	United	United	ADJ	NNP	Degree=Pos	13	amod	13:amod	_
+13	States	State	PROPN	NNPS	Number=Plur	9	obl	9:obl:in	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	20:punct	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_
+16	peaceful	peaceful	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
+17	transition	transition	NOUN	NN	Number=Sing	20	nsubj	20:nsubj	_
+18	of	of	ADP	IN	_	19	case	19:case	_
+19	power	power	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+21	not	not	PART	RB	Polarity=Neg	20	advmod	20:advmod	SpaceAfter=No
+22	,	,	PUNCT	,	_	20	punct	20:punct	SpaceAfter=No
+23	”	"	PUNCT	''	_	20	punct	20:punct	_
+24	Obama	Obama	PROPN	NNP	Number=Sing	26	compound	26:compound	_
+25	special	special	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
+26	assistant	assistant	NOUN	NN	Number=Sing	27	nmod:desc	27:nmod:desc	_
+27	Kori	Kori	PROPN	NNP	Number=Sing	29	nsubj	29:nsubj	_
+28	Schulman	Schulman	PROPN	NNP	Number=Sing	27	flat	27:flat	_
+29	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	parataxis	20:parataxis	_
+30	in	in	ADP	IN	_	33	case	33:case	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	33:det	_
+32	blog	blog	NOUN	NN	Number=Sing	33	compound	33:compound	_
+33	post	post	NOUN	NN	Number=Sing	29	obl	29:obl:in	_
+34	Monday	Monday	PROPN	NNP	Number=Sing	29	nmod:unmarked	29:nmod:unmarked	TemporalNPAdjunct=Yes|SpaceAfter=No
+35	.	.	PUNCT	.	_	20	punct	20:punct	_

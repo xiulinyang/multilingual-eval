@@ -45,6 +45,8 @@ elif eval_data =='flores':
     test_file = f'flores/{language}.txt'
 elif eval_data =='parallel10':
     test_file =f'parallel10/{language}/test/{language}.txt'
+elif eval_data =='pud':
+    test_file = f'pud/{language}.txt'
 else:
     raise ValueError(f"Unsupported eval_data: {eval_data}")
 
