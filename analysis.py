@@ -3,10 +3,11 @@ from glob import glob
 import numpy as np
 
 experiment='metrics'
-metric_files = sorted(glob('*parallel10/*.csv'))
+metric_files = sorted(glob('*pud/*.csv'))
 sum_results=[]
 for metric_file in metric_files:
-    if 'flores' in metric_file:
+    print(metric_file)
+    if experiment!='metrics' and 'flores' in metric_file:
         continue
     metric_type= metric_file.split('/')[0].split('_')[2]
 
@@ -29,4 +30,4 @@ for metric_file in metric_files:
 
     sum_results.append({'lang':lang, 'tokenization':tokenization, 'vocab_size':vocab_size, 'eval_data':eval_data, 'metric_type':metric_type, 'mean_value':mean})
 
-pd.DataFrame(sum_results).to_csv('summary_parallel10.csv', index=False)
+pd.DataFrame(sum_results).to_csv('summary_pud.csv', index=False)

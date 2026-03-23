@@ -5,7 +5,7 @@ library(RColorBrewer)
 metric_order <- c("bpb", "cpb","mrr", "ppl", "token-nll", "sent-nll")
 
 df <- read_csv(
-  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_parallels.csv",
+  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_pud.csv",
   show_col_types = FALSE
 ) %>%
   mutate(
@@ -14,7 +14,8 @@ df <- read_csv(
   )
 
 ctc <- read_tsv(
-  "/Users/xiulinyang/Desktop/TODO/multilingual-tokenization/ctc/ctc_florestest.tsv",
+  # "/Users/xiulinyang/Desktop/TODO/multilingual-tokenization/ctc/ctc_test.tsv",
+  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/ctc_pud_scale.tsv",
   show_col_types = FALSE
 ) %>%
   rename(
