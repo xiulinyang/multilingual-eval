@@ -42,11 +42,13 @@ elif eval_data=='de-arp':
 elif eval_data =='de-p':
     test_file = 'wmt19-ende-p.de'
 elif eval_data =='flores':
-    test_file = f'flores/{language}.txt'
+    test_file = f'data/flores/{language}.txt'
 elif eval_data =='parallel10':
-    test_file =f'parallel10/{language}/test/{language}.txt'
+    test_file =f'data/parallel10/{language}/test/{language}.txt'
+elif eval_data =='parallel3':
+    test_file =f'data/parallel3/{language}/test/{language}.txt'
 elif eval_data =='pud':
-    test_file = f'pud/{language}.txt'
+    test_file = f'data/pud/{language}.txt'
 else:
     raise ValueError(f"Unsupported eval_data: {eval_data}")
 

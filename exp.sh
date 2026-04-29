@@ -1,17 +1,17 @@
 #!/bin/bash
 
 
-LANGS=('EN' 'DE')
+LANGS=('EN' 'ZH' 'AR')
 #LANGS=('EN')
 #LANGS=('FR' 'KO' 'AR')
-VOCABS=(8192 32768 49152 65536 81920)
+VOCABS=(32768  65536)
 PPL_TYPES=('ppl' 'token-nll' 'bpb' 'sent-nll' 'cpb' 'mrr')
 #PPL_TYPES=('mrr')
-EVAL_DATA=('parallel10')
+EVAL_DATA=('parallel3' 'pud' 'flores')
 #EVAL_DATA=('en')
 TOKENIZER_TYPES=("bpe")
 MODEL_SIZE="gpt2_small"
-EXPERIMENT="parallel10"
+EXPERIMENT="parallel3"
 
 for lang in "${LANGS[@]}"; do
   for vocab_size in "${VOCABS[@]}"; do
