@@ -34,12 +34,13 @@ if __name__ == '__main__':
 
 
 
-    for vocab in vocab_size:
-        model_name = f'gpt2_medium_{language}_bpe_{vocab}_parallel3_42'
-        tokenizer = AutoTokenizer.from_pretrained(f'parallelm/{model_name}')
-        os.makedirs(f'language_stats/{data}', exist_ok=True)
-        with open(f'language_stats/{data}/{language}_token.tsv', 'w') as f:
-            f.write('Sentence\tVocabSize\tTokens\n')
+
+    with open(f'language_stats/{data}/{language}_token.tsv', 'w') as f:
+        f.write('Sentence\tVocabSize\tTokens\n')
+        for vocab in vocab_size:
+            model_name = f'gpt2_medium_{language}_bpe_{vocab}_parallel3_42'
+            tokenizer = AutoTokenizer.from_pretrained(f'parallelm/{model_name}')
+            os.makedirs(f'language_stats/{data}', exist_ok=True)
             for sent in tqdm(file):
                 token_count = count_tokens(sent, tokenizer)
                 f.write(f'{sent}\t{vocab}\t{token_count}\n')
