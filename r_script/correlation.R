@@ -5,7 +5,7 @@ library(RColorBrewer)
 metric_order <- c("bpb", "cpb","mrr", "ppl", "token-nll", "sent-nll")
 
 df <- read_csv(
-  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_pud.csv",
+  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_flores_scale.csv",
   show_col_types = FALSE
 ) %>%
   mutate(
@@ -15,7 +15,7 @@ df <- read_csv(
 
 ctc <- read_tsv(
   # "/Users/xiulinyang/Desktop/TODO/multilingual-tokenization/ctc/ctc_test.tsv",
-  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/ctc_pud_scale.tsv",
+  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/language_stats/ctc_pud_scale.tsv",
   show_col_types = FALSE
 ) %>%
   rename(
@@ -26,16 +26,16 @@ ctc <- read_tsv(
   ) %>%
   mutate(vocab_size = as.integer(vocab_size))
 
-lang_order <- c(
-  "French", "Polish", "German", "Chinese", "Finnish",
-  "Russian", "English", "Arabic", "Turkish", "Korean"
-)
-
-lang_map <- c(
-  "FR" = "French", "EN" = "English", "DE" = "German", "RU" = "Russian",
-  "FI" = "Finnish", "PL" = "Polish", "ZH" = "Chinese",
-  "AR" = "Arabic", "TR" = "Turkish", "KO" = "Korean"
-)
+# lang_order <- c(
+#   "French", "Polish", "German", "Chinese", "Finnish",
+#   "Russian", "English", "Arabic", "Turkish", "Korean"
+# )
+# 
+# lang_map <- c(
+#   "FR" = "French", "EN" = "English", "DE" = "German", "RU" = "Russian",
+#   "FI" = "Finnish", "PL" = "Polish", "ZH" = "Chinese",
+#   "AR" = "Arabic", "TR" = "Turkish", "KO" = "Korean"
+# )
 
 lang_colors <- setNames(
   brewer.pal(10, "Paired"),

@@ -3,21 +3,22 @@ from glob import glob
 import numpy as np
 
 experiment='metrics'
-metric_files = sorted(glob('*pud/*.csv'))
+eval_dataset = 'flores'
+metric_files = sorted(glob(f'metric_results/scaling_exp/*{eval_dataset}/*.csv'))
 sum_results=[]
 for metric_file in metric_files:
     print(metric_file)
     if experiment!='metrics' and 'flores' in metric_file:
         continue
-    metric_type= metric_file.split('/')[0].split('_')[2]
+    metric_type= metric_file.split('/')[2].split('_')[2]
 
     if experiment=='metrics': # compare all metrics on parallel corpus
         eval_data = metric_file.split('/')[-1].split('_')[2]
     elif experiment=='paraphrase': # compare paraphrases vs original
-        eval_data = metric_file.split('/')[0].split('_')[3]
+        eval_data = metric_file.split('/')[2].split('_')[3]
     else:
         raise ValueError(f"Unsupported experiment: {experiment}")
-    model_name = metric_file.split('/')[1].split('.')[0]
+    model_name = metric_file.split('/')[-1].split('.')[0]
     vocab_size = model_name.split('_')[4]
     lang = model_name.split('_')[2]
     tokenization=model_name.split('_')[3]
@@ -30,4 +31,4 @@ for metric_file in metric_files:
 
     sum_results.append({'lang':lang, 'tokenization':tokenization, 'vocab_size':vocab_size, 'eval_data':eval_data, 'metric_type':metric_type, 'mean_value':mean})
 
-pd.DataFrame(sum_results).to_csv('summary_pud.csv', index=False)
+pd.DataFrame(sum_results).to_csv(f'summary_{eval_dataset}_scale.csv', index=False)

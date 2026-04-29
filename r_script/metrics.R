@@ -16,61 +16,65 @@ lang_order <- c(
   "English (Latin)",   "German (Latin)","French (Latin)", "Korean (Hangul)"
 )
 
-script_linetypes <- c(
-  "English (Latin)"    = "solid",
-  "French (Latin)"     = "solid",
-  "German (Latin)"     = "twodash",
-  "Finnish (Latin)"    = "dotdash",
-  "Polish (Latin)"     = "solid",
-  "Turkish (Latin)"    = "longdash",
-  "Russian (Cyrillic)" = "solid",
-  "Chinese (CJK)"      = "solid",
-  "Korean (Hangul)"    = "dotted",
-  "Arabic (Arabic)"    = "dashed"
-)
-
 # script_linetypes <- c(
 #   "English (Latin)"    = "solid",
 #   "French (Latin)"     = "solid",
-#   "German (Latin)"     = "solid",
-#   "Finnish (Latin)"    = "solid",
+#   "German (Latin)"     = "twodash",
+#   "Finnish (Latin)"    = "dotdash",
 #   "Polish (Latin)"     = "solid",
-#   "Turkish (Latin)"    = "solid",
+#   "Turkish (Latin)"    = "longdash",
 #   "Russian (Cyrillic)" = "solid",
 #   "Chinese (CJK)"      = "solid",
-#   "Korean (Hangul)"    = "solid",
-#   "Arabic (Arabic)"    = "solid"
+#   "Korean (Hangul)"    = "dotted",
+#   "Arabic (Arabic)"    = "dashed"
 # )
-
-lang_colors <- c(
-  "English (Latin)"    = "#ffca3a",
-  "French (Latin)"     = "#6a4c93",
-  "German (Latin)"     = "#DEEDFF",
-  "Finnish (Latin)"    = "#DEEDFF",
-  "Polish (Latin)"     = "#1982c4",
-  "Turkish (Latin)"    = "#DEEDFF",
-  "Russian (Cyrillic)" = "#E31A1C",
-  "Chinese (CJK)"      = "#33A02C",
-  "Korean (Hangul)"    = "#DEEDFF",
-  "Arabic (Arabic)"    = "#DEEDFF"
-)
-
 # 
 # lang_colors <- c(
-#   "English (Latin)"    = "#FDBF6F",
+#   "English (Latin)"    = "#ffca3a",
 #   "French (Latin)"     = "#6a4c93",
-#   "German (Latin)"     = "#ffca3a",
-#   "Finnish (Latin)"    = "#FB9A99",
+#   "German (Latin)"     = "#DEEDFF",
+#   "Finnish (Latin)"    = "#DEEDFF",
 #   "Polish (Latin)"     = "#1982c4",
-#   "Turkish (Latin)"    = "#B2DF8A",
+#   "Turkish (Latin)"    = "#DEEDFF",
 #   "Russian (Cyrillic)" = "#E31A1C",
 #   "Chinese (CJK)"      = "#33A02C",
-#   "Korean (Hangul)"    = "#CAB2D6",
-#   "Arabic (Arabic)"    = "#A6CEE3"
+#   "Korean (Hangul)"    = "#DEEDFF",
+#   "Arabic (Arabic)"    = "#DEEDFF"
 # )
 
+
+script_linetypes <- c(
+  "English (Latin)"    = "solid",
+  "French (Latin)"     = "solid",
+  "German (Latin)"     = "solid",
+  "Finnish (Latin)"    = "solid",
+  "Polish (Latin)"     = "solid",
+  "Turkish (Latin)"    = "solid",
+  "Russian (Cyrillic)" = "solid",
+  "Chinese (CJK)"      = "solid",
+  "Korean (Hangul)"    = "solid",
+  "Arabic (Arabic)"    = "solid"
+)
+
+
+
+# 
+lang_colors <- c(
+  "Chinese (CJK)"      = "#33A02C",
+  "English (Latin)"    = "#FDBF6F",
+  "Arabic (Arabic)"    = "#A6CEE3"
+  # "French (Latin)"     = "#6a4c93",
+  # "German (Latin)"     = "#ffca3a",
+  # "Finnish (Latin)"    = "#FB9A99",
+  # "Polish (Latin)"     = "#1982c4",
+  # "Turkish (Latin)"    = "#B2DF8A",
+  # "Russian (Cyrillic)" = "#E31A1C",
+  # "Korean (Hangul)"    = "#CAB2D6",
+ 
+)
+
 df <- read_csv(
-  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_de-en.csv",
+  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_flores_scale.csv",
   show_col_types = FALSE
 ) %>%
   mutate(
