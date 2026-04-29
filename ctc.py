@@ -2,9 +2,7 @@ import os
 from transformers import AutoTokenizer
 from pathlib import Path
 import argparse
-
-from sample_size_exp import vocab
-
+from tqdm import tqdm
 
 def count_tokens(sent, tokenizer):
     tokens = tokenizer.encode(sent, add_special_tokens=False)
@@ -40,8 +38,8 @@ if __name__ == '__main__':
         model_name = f'gpt2_medium_{language}_bpe_{vocab}_parallel3_42'
         tokenizer = AutoTokenizer.from_pretrained(f'parallelm/{model_name}')
         os.makedirs(f'language_stats/{data}', exist_ok=True)
-        with open(f'language_stats/{data}/{model_name}.tsv', 'w') as f:
+        with open(f'language_stats/{data}/{language}_token.tsv', 'w') as f:
             f.write('Sentence\tTokens\n')
-            for sent in file:
+            for sent in tqdm(file):
                 token_count = count_tokens(sent, tokenizer)
                 f.write(f'{sent}\t{token_count}\n')

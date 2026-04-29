@@ -3,9 +3,8 @@ import os
 from transformers import AutoTokenizer
 from pathlib import Path
 import argparse
-def count_tokens(sent, tokenizer):
-    tokens = tokenizer.encode(sent, add_special_tokens=False)
-    return len(tokens)
+from tqdm import tqdm
+
 
 def count_characters(sent):
     return len(''.join(sent.split()))
@@ -17,11 +16,14 @@ def count_bytes(sent):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Count tokens, characters, and bits in sentences.')
+    parser.add_argument('language', type=str, required=True, help='the name of the language')
     parser.add_argument('data', type=str, required=True, help='the data name')
     args = parser.parse_args()
-    model_name = args.model_name
     data = args.data
-    language = model_name.split('_')[2]
+    language = args.language
+
+
+
     if data == 'flores':
         file = Path(f'data/flores/{language}.txt').read_text().strip().split('\n')
     elif data == 'parallel10':
@@ -33,11 +35,11 @@ if __name__ == '__main__':
     else:
         raise ValueError(f"Unsupported data: {data}")
 
-    tokenizer = AutoTokenizer.from_pretrained(f'parallelm/{model_name}')
+
     os.makedirs(f'language_stats/{data}', exist_ok=True)
     with open(f'language_stats/{data}/{language}_char_bit.tsv', 'w') as f:
         f.write('Sentence\tCharacters\tBytes\n')
-        for sent in file:
+        for sent in tqdm(file):
             char_count = count_characters(sent)
             bit_count = count_bytes(sent)
             f.write(f'{sent}\t{char_count}\t{bit_count}\n')
