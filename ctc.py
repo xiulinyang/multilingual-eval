@@ -39,7 +39,7 @@ if __name__ == '__main__':
         tokenizer = AutoTokenizer.from_pretrained(f'parallelm/{model_name}')
         os.makedirs(f'language_stats/{data}', exist_ok=True)
         with open(f'language_stats/{data}/{language}_token.tsv', 'w') as f:
-            f.write('Sentence\tTokens\n')
+            f.write('Sentence\tVocabSize\tTokens\n')
             for sent in tqdm(file):
                 token_count = count_tokens(sent, tokenizer)
-                f.write(f'{sent}\t{token_count}\n')
+                f.write(f'{sent}\t{vocab}\t{token_count}\n')
