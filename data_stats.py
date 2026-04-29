@@ -16,8 +16,8 @@ def count_bytes(sent):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Count tokens, characters, and bits in sentences.')
-    parser.add_argument('language', type=str, required=True, help='the name of the language')
-    parser.add_argument('data', type=str, required=True, help='the data name')
+    parser.add_argument('language', type=str,  help='the name of the language')
+    parser.add_argument('data', type=str,help='the data name')
     args = parser.parse_args()
     data = args.data
     language = args.language
