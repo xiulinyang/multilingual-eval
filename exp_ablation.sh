@@ -10,7 +10,7 @@ EVAL_DATA=('parallel3' 'pud' 'flores')
 
 
 for ppl_type in "${PPL_TYPES[@]}"; do
-    for eval_data in "${EVAL_DATA[@]}"; do
+  for eval_data in "${EVAL_DATA[@]}"; do
 
     echo "Running: MODEL_NAME=$MODEL_NAME, EVAL_LANG=$EVAL_LANG, PPL_TYPE=$ppl_type, EVAL_DATA=$eval_data"
 
