@@ -4,8 +4,8 @@
 MODEL_NAME=$1
 EVAL_LANG=$2
 
-PPL_TYPES=('ppl' 'token-nll' 'bpb' 'sent-nll' 'cpb' 'mrr')
-EVAL_DATA=('parallel3' 'pud' 'flores')
+PPL_TYPES=( 'bpb' )
+EVAL_DATA=( 'pud' 'flores')
 
 
 
