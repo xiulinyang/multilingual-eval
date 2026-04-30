@@ -93,7 +93,7 @@ device = "cpu"
 ilm_model = scorer.IncrementalLMScorer(f'{model_path}', device)
 model = GPT2LMHeadModel.from_pretrained(f'{model_path}').to(device)
 tokenizer = AutoTokenizer.from_pretrained(f'{model_path}', use_fast=True)
-vocab_size = model_name.split('_')[4]
+
 metrics = []
 failed_batch=0
 for i in tqdm(range(0, len(test_texts), BATCH_SIZE)):
