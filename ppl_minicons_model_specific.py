@@ -2,7 +2,6 @@ import math
 import sys
 from minicons import scorer
 
-from ppl_minicons import ppl_type
 
 sys.path.append("..")
 from pathlib import Path
@@ -28,10 +27,11 @@ args = parser.parse_args()
 model_name = args.model_name
 language = args.eval_language
 ppl_type = args.ppl_type
+eval_data = args.eval_data
 # Get path to model
 model_path = f"{model_name}"
 tokenizer = AutoTokenizer.from_pretrained(f'{model_path}', use_fast=True)
-eval_data = args.eval_data
+
 
 if eval_data =='en':
     test_file='wmt19-ende-original.en'
