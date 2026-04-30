@@ -124,7 +124,7 @@ for i in tqdm(range(0, len(test_texts), BATCH_SIZE)):
     metrics.extend(nll)
 
 
-    ppl_df[f"Values"] = metrics
+ppl_df[f"Values"] = metrics
 
 model_sub_name = model_name.split('/')[-1]
 # Write results to CSV
