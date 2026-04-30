@@ -1,0 +1,4 @@
+lang,eval_data,metric_type,mean_value
+AR.csv,token-nll,token-nll,4.172315032114624
+EN.csv,token-nll,token-nll,3.66262467576581
+ZH.csv,token-nll,token-nll,4.420710265872035

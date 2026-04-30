@@ -3,7 +3,7 @@ import sys
 from minicons import scorer
 
 
-sys.path.append("..")
+sys.path.append("../..")
 from pathlib import Path
 from transformers import GPT2LMHeadModel,AutoTokenizer,AutoModelForCausalLM
 from tqdm import tqdm
@@ -14,7 +14,7 @@ import numpy as np
 import torch
 
 CHECKPOINTS = [10]
-DATA_DIR = 'data/'
+DATA_DIR = '../data/'
 
 
 parser = argparse.ArgumentParser()

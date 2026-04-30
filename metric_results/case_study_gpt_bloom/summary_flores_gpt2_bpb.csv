@@ -1,0 +1,5 @@
+lang,eval_data,metric_type,mean_value
+AR.csv,bpb,bpb,1.9978342044157604
+EN.csv,bpb,bpb,1.1118798447888665
+RU.csv,bpb,bpb,1.8932962330492449
+ZH.csv,bpb,bpb,3.495162367581667

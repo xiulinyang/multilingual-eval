@@ -66,7 +66,7 @@ p <- ggplot(
   geom_line(linewidth = 0.75, alpha = 0.9) +
   geom_point(size = 1.8, alpha = 0.9) +
   geom_errorbar(
-    aes(ymin = mean_value - se, ymax = mean_value + se),
+    aes(ymin = mean_value - ci95, ymax = mean_value + ci95),
     width = 0, linewidth = 0.5, alpha = 0.6
   ) +
   facet_grid2(

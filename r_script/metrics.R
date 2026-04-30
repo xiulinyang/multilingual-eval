@@ -62,19 +62,19 @@ script_linetypes <- c(
 lang_colors <- c(
   "Chinese (CJK)"      = "#33A02C",
   "English (Latin)"    = "#FDBF6F",
-  "Arabic (Arabic)"    = "#A6CEE3"
-  # "French (Latin)"     = "#6a4c93",
-  # "German (Latin)"     = "#ffca3a",
-  # "Finnish (Latin)"    = "#FB9A99",
-  # "Polish (Latin)"     = "#1982c4",
-  # "Turkish (Latin)"    = "#B2DF8A",
-  # "Russian (Cyrillic)" = "#E31A1C",
-  # "Korean (Hangul)"    = "#CAB2D6",
- 
+  "Arabic (Arabic)"    = "#A6CEE3",
+  "French (Latin)"     = "#6a4c93",
+  "German (Latin)"     = "#ffca3a",
+  "Finnish (Latin)"    = "#FB9A99",
+  "Polish (Latin)"     = "#1982c4",
+  "Turkish (Latin)"    = "#B2DF8A",
+  "Russian (Cyrillic)" = "#E31A1C",
+  "Korean (Hangul)"    = "#CAB2D6"
+
 )
 
 df <- read_csv(
-  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_flores_scale.csv",
+  "/Users/xiulinyang/Desktop/TODO/multilingual-eval/summary_flores_sample.csv",
   show_col_types = FALSE
 ) %>%
   mutate(
@@ -182,3 +182,15 @@ p <- ggplot(
   )
 
 p
+
+
+df_plot <- df %>%
+  filter(tokenization == "bpe") %>%
+  group_by(metric_type, eval_data, vocab_size) %>%
+  summarise(
+    mean_value = mean(mean_value, na.rm = TRUE),
+    sd_value   = sd(mean_value, na.rm = TRUE),
+    se_value   = sd_value / sqrt(n()),
+    .groups = "drop"
+  )
+

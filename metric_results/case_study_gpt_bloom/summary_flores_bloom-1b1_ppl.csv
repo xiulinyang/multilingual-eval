@@ -1,0 +1,4 @@
+lang,eval_data,metric_type,mean_value
+AR.csv,ppl,ppl,64.8654440083894
+EN.csv,ppl,ppl,38.9634752697774
+ZH.csv,ppl,ppl,83.15532677899768
