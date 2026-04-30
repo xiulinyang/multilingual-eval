@@ -89,43 +89,42 @@ def compute_sentence_mrr(model, tokenizer, sent_batch):
 
 
 device = "cpu"
-for j, ckpt in enumerate(CHECKPOINTS):
-    print(f"Epoch:{ckpt}")
-    ilm_model = scorer.IncrementalLMScorer(f'{model_path}', device, revision=f'checkpoint-{ckpt}')
-    model = GPT2LMHeadModel.from_pretrained(f'{model_path}', revision=f'checkpoint-{ckpt}').to(device)
-    tokenizer = AutoTokenizer.from_pretrained(f'{model_path}', use_fast=True)
-    vocab_size = model_name.split('_')[4]
-    metrics = []
-    failed_batch=0
-    for i in tqdm(range(0, len(test_texts), BATCH_SIZE)):
-        batch_text = test_texts[i:i+BATCH_SIZE]
-        batch_text = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False)) for x in batch_text]
 
-        if ppl_type=='sent-nll':
-            nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
-        elif ppl_type=='token-nll':
-            nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.mean(0).item())
-        elif ppl_type=='ppl':
-            nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.mean(0).item())
-            nll = [math.exp(x) for x in nll]
-        elif ppl_type =='bpb':
-            nll_sum = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
-            bytes_seq = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False)).encode('utf-8') for x in batch_text]
-            assert len(nll_sum)==len(bytes_seq)
-            nll = [(x/len(y))/math.log(2) for x,y in zip(nll_sum, bytes_seq)]
-        elif ppl_type =='cpb':
-            nll_sum = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
-            chars_seq = [
-                len(tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False))) for x in batch_text]
-            nll = [(x / y)/math.log(2) for x, y in zip(nll_sum, chars_seq)]
-        elif ppl_type=='mrr':
-            nll=compute_sentence_mrr(model, tokenizer,batch_text)
-        else:
-            raise ValueError(f"Unsupported ppl_type: {ppl_type}")
-        metrics.extend(nll)
+ilm_model = scorer.IncrementalLMScorer(f'{model_path}', device)
+model = GPT2LMHeadModel.from_pretrained(f'{model_path}').to(device)
+tokenizer = AutoTokenizer.from_pretrained(f'{model_path}', use_fast=True)
+vocab_size = model_name.split('_')[4]
+metrics = []
+failed_batch=0
+for i in tqdm(range(0, len(test_texts), BATCH_SIZE)):
+    batch_text = test_texts[i:i+BATCH_SIZE]
+    batch_text = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False)) for x in batch_text]
+
+    if ppl_type=='sent-nll':
+        nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
+    elif ppl_type=='token-nll':
+        nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.mean(0).item())
+    elif ppl_type=='ppl':
+        nll = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.mean(0).item())
+        nll = [math.exp(x) for x in nll]
+    elif ppl_type =='bpb':
+        nll_sum = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
+        bytes_seq = [tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False)).encode('utf-8') for x in batch_text]
+        assert len(nll_sum)==len(bytes_seq)
+        nll = [(x/len(y))/math.log(2) for x,y in zip(nll_sum, bytes_seq)]
+    elif ppl_type =='cpb':
+        nll_sum = ilm_model.sequence_score(batch_text, reduction=lambda x: -x.sum(0).item())
+        chars_seq = [
+            len(tokenizer.decode(tokenizer.encode(x, truncation=True, max_length=120, add_special_tokens=False))) for x in batch_text]
+        nll = [(x / y)/math.log(2) for x, y in zip(nll_sum, chars_seq)]
+    elif ppl_type=='mrr':
+        nll=compute_sentence_mrr(model, tokenizer,batch_text)
+    else:
+        raise ValueError(f"Unsupported ppl_type: {ppl_type}")
+    metrics.extend(nll)
 
 
-    ppl_df[f"Epoch-{ckpt}"] = metrics
+    ppl_df[f"Values"] = metrics
 
 model_sub_name = model_name.split('/')[-1]
 # Write results to CSV
