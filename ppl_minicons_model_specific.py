@@ -55,7 +55,7 @@ else:
     raise ValueError(f"Unsupported eval_data: {eval_data}")
 
 test_texts = Path(test_file).read_text().strip().split('\n')
-BATCH_SIZE = 8
+BATCH_SIZE = 64
 
 ppl_df = pd.DataFrame({
     "Sentences": test_texts,
