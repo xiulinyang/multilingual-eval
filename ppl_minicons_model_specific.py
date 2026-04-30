@@ -5,7 +5,7 @@ from minicons import scorer
 
 sys.path.append("..")
 from pathlib import Path
-from transformers import GPT2LMHeadModel,AutoTokenizer
+from transformers import GPT2LMHeadModel,AutoTokenizer,AutoModelForCausalLM
 from tqdm import tqdm
 import pandas as pd
 import argparse
@@ -91,7 +91,7 @@ def compute_sentence_mrr(model, tokenizer, sent_batch):
 device = "cpu"
 
 ilm_model = scorer.IncrementalLMScorer(f'{model_path}', device)
-model = GPT2LMHeadModel.from_pretrained(f'{model_path}').to(device)
+model = AutoModelForCausalLM.from_pretrained(f'{model_path}').to(device)
 tokenizer = AutoTokenizer.from_pretrained(f'{model_path}', use_fast=True)
 
 metrics = []
