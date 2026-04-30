@@ -1,7 +1,7 @@
 # multilingual-eval
 
 This is the repository for the paper: Apples to Apples? Towards Comparable Crosslingual
-Language Model Evaluation by Xiulin Yang, Ethan Gotlieb Wilcox, and Catherine Arnett.
+Language Model Evaluation.
 
 ## repo structure
 - `data/`: contains the evaluation datasets used in the paper
