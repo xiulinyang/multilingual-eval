@@ -57,4 +57,4 @@ if __name__ == '__main__':
     df = pd.DataFrame(
         [{"accuracy": acc} for _, acc in f_results.items()]
     )
-    df.to_csv(f'{result_dir}/results_{model_name}.csv')
+    df.to_csv(f'{result_dir}/results_{model_name}_{lang}.csv')
