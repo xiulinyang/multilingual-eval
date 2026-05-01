@@ -1,0 +1,154 @@
+sent_id	sent_correct	sent_wrong	swap_head	feature_vals
+w01067059	He reigned only fifteen years, which is evidenced by the incomplete nature of many of his constructions.	He reigned only fifteen years, which are evidenced by the incomplete nature of many of his constructions.	NA	NA
+n01035004	Despite the release of a photo this morning, police in B.C. say they have more questions than answers about an apparently homeless man charged in the fatal stabbing of a teen girl at her Abbotsford high school.	Despite the release of a photo this morning, police in B.C. say they has more questions than answers about an apparently homeless man charged in the fatal stabbing of a teen girl at her Abbotsford high school.	has	PL -> SG
+n01110006	An investor with average luck and £10,000 in bonds could expect to receive £125 in prizes per year.	NA	NA	NA
+w01007070	Its police includes a special unit which operates patrol and surveillance boats.	Its police includes a special unit which operate patrol and surveillance boats.	operate	SG -> PL
+n01022002	A UN review of national plans to cut carbon says they are well short of the levels needed to keep the rise in global temperatures under 2C.	NA	NA	NA
+w05005083	Things started to change in October 1777 when British forces under the command of General John Burgoyne surrendered in Saratoga in the north of the state of New York.	NA	NA	NA
+n01059019	Republican economists caution against taking this data as proof that their party is lousy at economic policy.	NA	NA	NA
+n01043005	The executives also received so-called "performance pay" for succeeding or surpassing expectations, sharing a pot of $1.5 million among them, or an estimated $15,000 each on average.	NA	NA	NA
+n05007006	He believes that nobody waiting for us waits for us.	NA	NA	NA
+n01112012	The consumer can boost the demand for change.	NA	NA	NA
+n02011003	With the help of debit card data, the Essen police are investigating four people who stood by and watched while a retiree died in a bank.	NA	NA	NA
+n01133014	The Dutch students have yet to decide if they will be commercializing their electric motorcycle.	The Dutch students 've yet to decide if they will be commercializing their electric motorcycle.	've	1|3 -> 2
+n01016014	The South Korean company initially thought a battery fault was to blame, and switched its own component for a third-party power cell.	NA	NA	NA
+n05003010	The consulted sources have said that it is "100% Cospedal".	The consulted sources 've said that it is "100% Cospedal".	've	1|3 -> 2
+n01002058	What she’s saying and what she’s doing, it — actually, it’s unbelievable.	NA	NA	NA
+n01120010	Doss’s story also has an unlikely quality to it that makes it all the more appealing.	NA	NA	NA
+w01026024	The amount of goods transported on the Danube increased to about 100 million tons in 1987.	NA	NA	NA
+w04002055	In 1976, the racecourse was no longer used; in 1990, a fire destroyed what remained of the wooden grandstands, which were later demolished along with the stables.	NA	NA	NA
+n01123024	Perhaps it won’t matter as I won’t be troubled long.	NA	NA	NA
+n01150051	"Architecture wo n't help deceased people, but it helps to keep their memories alive among the living," he says.	"Architecture wo n't help deceased people, but it help to keep their memories alive among the living," he says.	help	SG -> PL
+w01026037	The greater part of the Danube Delta lies in Romania (Tulcea county), while its northern part, on the left bank of the Chilia arm, is situated in Ukraine (Odessa Oblast).	NA	NA	NA
+w01035081	Agricultural land can actually suffer from the destruction of the surrounding landscape.	NA	NA	NA
+w01105057	It was so successful that the military continued to use it for many years after the war, and it was still in use in some countries in the 1980s.	NA	NA	NA
+w01084102	This contact with the West during the 16th century lead to a period of profound economic growth as lucrative trade routes were established.	NA	NA	NA
+w01092032	The Industrial Revolution created a demand for metal parts used in machinery.	NA	NA	NA
+w01010044	A variety of Germanic and major Slavic tribes crossed through Moravia during the Migration Period before Slavs established themselves in the 6th century AD.	NA	NA	NA
+n01084008	Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.	NA	NA	NA
+n01105013	But right now everything is out of kilter and he seems to be seeking answers all the time.	NA	NA	NA
+n01051004	What started as a routine ultrasound became complicated when expectant mother Margaret Boemer, of Plano, Texas, was told her unborn child had a rare condition and needed surgery to survive.	NA	NA	NA
+n01080042	I wanted to watch it with them, but they decided they’d rather watch it without me in the end.	NA	NA	NA
+n03004003	On Thursday, the 3rd of November, the mayor of Saint-Gaudens (in the Haute-Garonne region) decided to suspend the urban development agreement with the government formed in 2014.	NA	NA	NA
+n01082014	“More people are turning to credit … While this borrowing might be manageable now, a sudden change in circumstances could lead to debt problems.”	NA	NA	NA
+n01069006	The Liberal Democrats, who represented the affluent suburb until 2010, are hoping to snatch it back with their candidate Sarah Olney.	NA	NA	NA
+w01001049	The charter allowed for the creation of a merchants' guild, run by the town's burgesses to tax people passing through the borough.	NA	NA	NA
+w05006058	On the other hand, external history contains references to the history of Spanish speakers, their historical vicissitudes and the social use of the language.	NA	NA	NA
+w05010026	But when the Senate answered him definitively by prohibiting him from competing at the consolate and giving him the option of either withdrawing his troops or becoming a public enemy, he understood that, whatever alternative he chose, he would surrender unarmed into the hands of his political enemies.	NA	NA	NA
+w01144063	Republicans captured the Senate for the first time since 1952, and gained 34 House seats, but the Democrats retained a majority.	NA	NA	NA
+w03010098	In spring 1948, in hopes of adapting Tintin for the cinema, the Belgian artist wrote a letter to Walt Disney, asking in vain for his support.	NA	NA	NA
+n01090004	I looked at motocross and the more I looked, this one woman’s face kept coming up, in photographs that looked as if they were from the 1970s.	NA	NA	NA
+w01045002	The name "Caribbean" derives from the Caribs, one of the dominant Native American groups in the region at the time of European contact during the late 15th century.	The name "Caribbean" derive from the Caribs, one of the dominant Native American groups in the region at the time of European contact during the late 15th century.	derive	SG -> PL
+n01022010	"We are moving in the right direction: the Paris Agreement will slow climate change, as will the recent Kigali Amendment to reduce HFCs," said Erik Solheim, head of UN Environment.	NA	NA	NA
+w04009042	The man told him that a war between the two universes is coming, as he and Walter had predicted; it is for this reason that Olivia, among others, was trained as a child.	The man told him that a war between the two universes is coming, as he and Walter had predicted; it am for this reason that Olivia, among others, was trained as a child.	am	3 -> 1
+w01132042	The patterns presented by the data from the Petén region and Uaxactun allowed for these sites to fit within the cultural development of the Maya lowlands.	NA	NA	NA
+n01049022	"This strain helps with back pain, this strain helps with nausea, this product makes you sleep at night," says Dietrich from the company 's headquarters in Denver, Colorado, where pot is sold legally.	"This strain helps with back pain, this strain help with nausea, this product makes you sleep at night," says Dietrich from the company 's headquarters in Denver, Colorado, where pot is sold legally.	help	SG -> PL
+n01053041	"Her voice literally went around the world," Leive said.	NA	NA	NA
+n01133022	A Harley-Davidson spokeswoman said timelines that have been floated in the media -- 2017 or 2020 -- aren't accurate.	NA	NA	NA
+w02013033	The Suez Crisis showed the limits of the old colonial powers such as Great Britain and France in a changing world.	NA	NA	NA
+w03005014	From the 9th century BC, the first Greek texts began to appear.	NA	NA	NA
+n01107006	It has also opened VW up to huge compensation claims, legal action and has seen it take more than €16bn of provisions.	NA	NA	NA
+w01125034	Wilkes was re-elected and expelled twice more, before the House of Commons resolved that his candidature was invalid and declared the runner-up as the victor.	NA	NA	NA
+n01085011	Surprising as it may seem, even acid rain clouds can have a silver lining.	NA	NA	NA
+w01053062	The latter date can only have fallen on a Friday if an exceptional leap month had been introduced that year, but this was favoured by Newton.	NA	NA	NA
+w01025084	This retreat came as a surprise to the Austro-Prussian army, and almost all of the Danish army succeeded in completing the evacuation.	NA	NA	NA
+n02031071	If a Turkish employee quits, then the Turkish work councils come.	If a Turkish employee quit, then the Turkish work councils come.	quit	SG -> PL
+n01073004	Who can stop this Australia side?	NA	NA	NA
+n01006011	A witness told police that the victim had attacked the suspect in April.	NA	NA	NA
+n01112014	A major report in January said oceans would contain more plastic than fish by 2050 unless the world took radical action to stop rubbish leaking into the seas.	NA	NA	NA
+n01035013	Police in B.C. said earlier Klein did not appear to have a criminal history and released vague details about his recent whereabouts.	NA	NA	NA
+n01108005	Retail and wholesale businesses expanded as shoppers remained upbeat, and consumer services companies also grew.	NA	NA	NA
+w01072079	By the 3rd century the emperor Caracalla made a new division which lasted only a short time.	NA	NA	NA
+w01007087	Current land reclamation projects include extending the district of Fontvieille.	NA	NA	NA
+n01043014	Its annual budget is more than $1.4 billion, and it employs more than 6,000 people.	Its annual budget is more than $1.4 billion, and it employ more than 6,000 people.	employ	SG -> PL
+w01056103	It set the basis for integration where the economic and judicial mechanisms of the state could be applied throughout the Mediterranean as was once done from Latium into all Italy.	NA	NA	NA
+n01035025	"We do not believe the suspect has ties to this school, or to the two girls, or specifically to the Abbotsford area," she said.	NA	NA	NA
+w01099012	Explanations of the origin of music depend on how music is defined.	NA	NA	NA
+n01074030	You have to stand up to that and I would rather someone ran at me rather than round me.	You has to stand up to that and I would rather someone ran at me rather than round me.	has	2 -> 3
+n01002017	But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”	NA	NA	NA
+w01150044	The Great Powers did not fulfill the requests for recognition of Albania.	NA	NA	NA
+n01027041	I asked her afterwards if she understood why people might vote for Trump.	NA	NA	NA
+n03007003	This clause included the time taken to travel to clients' homes in working hours.	NA	NA	NA
+n04007015	As stated, the decision is the prerogative of the ECB and would appear inappropriate for the Bank to speak on its behalf by excluding the possibility of looking at other alternatives.	NA	NA	NA
+n02011018	The spokesman did not rule out the possibility that others would also be investigated.	NA	NA	NA
+n05002004	For the first time in the last six years the rate of unemployment has dropped below 20%, and there are already 600,000 more people employed than there were a year ago.	NA	NA	NA
+w01079049	In 1538 the Spanish Inquisition cautioned its members not to believe everything the Malleus said.	NA	NA	NA
+w01125037	George was appalled by what he saw as their loose morals.	NA	NA	NA
+n01061041	As the hysteria of the 2016 Presidential election intensifies, a more troubling threat than bullshit preoccupies Karel.	As the hysteria of the 2016 Presidential election intensifies, a more troubling threat than bullshit preoccupy Karel.	preoccupy	SG -> PL
+n01002032	“So I hate to put a little pressure on you, but the fate of the republic rests on your shoulders,” he told the crowd gathered on a sports field at the University of North Carolina.	“So I hates to put a little pressure on you, but the fate of the republic rests on your shoulders,” he told the crowd gathered on a sports field at the University of North Carolina.	hates	1 -> 3
+n01022016	Investments in this area were up by 6% in 2015 to $221bn.	NA	NA	NA
+w01150045	At the beginning of the London conference in December 1912 the ambassadors of all six Great Powers rejected the plan for establishing an independent Albania.	NA	NA	NA
+n04006014	The latest figures relate to the 24th of October last year, and tell us that our diesel costs 1,335 euros per litre, compared with the eurozone average of 1,165 euros.	The latest figures relate to the 24th of October last year, and tell us that our diesel cost 1,335 euros per litre, compared with the eurozone average of 1,165 euros.	cost	SG -> PL
+n01053008	"Some men get it and Bono is one of those guys," Leive said in a recent interview.	NA	NA	NA
+w01009017	While air mass identification was originally used in weather forecasting during the 1950s, climatologists began to establish synoptic climatologies based on this idea in 1973.	NA	NA	NA
+n05008018	The early voting suggests that this time the Latin Americans will come out to vote in greater numbers, but it is unclear whether the increase will have an impact.	NA	NA	NA
+w01142013	When their daughter Cecily married Richard Plantagenet, the 3rd Duke of York, and had several offspring, including Edward IV and Richard III, Joan became the grandmother of two York kings of England.	NA	NA	NA
+n01106008	The annual survey also revealed that worries about taking on fresh financial burdens has rocketed.	NA	NA	NA
+n01109008	The cost will change monthly and the price is expected to rise in winter as usage increases.	The cost will change monthly and the price is expected to rise in winter as usage increase.	increase	SG -> PL
+n01024013	The results from this experiment provides further support that rocket seeds can be flown and stored on the International Space Station for six months without having any significant impacts on their ability to germinate and grow on Earth.	NA	NA	NA
+w01032139	Global warming has caused a change in the pattern of the rainy seasons.	NA	NA	NA
+n01021012	Analysis revealed that historic amounts of data had been used to cause the disruption.	NA	NA	NA
+n01101012	The Hong Kong government, which is led by pro-Beijing lawmakers, have argued that the pair should not take office.	The Hong Kong government, which is led by pro-Beijing lawmakers, has argued that the pair should not take office.	has	1|2 -> 3
+w01100049	In 1856, the Second Opium War broke out; the Chinese were again defeated and forced to the terms of the 1858 Treaty of Tientsin and the 1860 Convention of Peking.	NA	NA	NA
+w01091045	Besides being a direct source of food, certain animals could provide leather, wool, hides, and fertilizer.	NA	NA	NA
+w02009025	The event was known about in Paris and caused more upset in a mood which was already charged by the persistently high price of bread and lack of provisions.	NA	NA	NA
+w01086037	By 1563, the population of Venice had dropped to about 168,000 people.	NA	NA	NA
+w01051080	Indeed, the first scholarly report on the battle, by James Henry Breasted in 1903, praised the sources that allowed the reconstruction the battle with certainty.	NA	NA	NA
+n02082017	The contaminants not only attack the undeveloped lungs of the little ones; they can also lead to long-term impairment in the development of the adolescent brain.	NA	NA	NA
+n01057014	The debris formed a ring around the Earth's equator and was eventually drawn together by gravity to form the moon.	NA	NA	NA
+w01080131	The Macedonian army advanced as far as the pass of Thermopylae which divides Greece in two parts, but it did not attempt to take it because it was strongly guarded by a joint force of Athenians, Spartans, and Achaeans.	The Macedonian army advanced as far as the pass of Thermopylae which divide Greece in two parts, but it did not attempt to take it because it was strongly guarded by a joint force of Athenians, Spartans, and Achaeans.	divide	SG -> PL
+w01048027	In the 1350s, King Gongmin was free at last to reform the Goryeo government when the Yuan dynasty began to crumble.	NA	NA	NA
+w01125035	Grafton's government disintegrated in 1770, allowing the Tories led by Lord North to return to power.	NA	NA	NA
+n01045035	The judge in Duffy's fraud and breach of trust trial ultimately ruled they were within the Senate's rules when he cleared Duffy of all charges.	NA	NA	NA
+n01150031	When people die of old age in India, it is supposed to be a celebration.	NA	NA	NA
+n01134005	U.S. stock futures are surging by more than 1%, alongside European markets.	NA	NA	NA
+w01038044	Numerous indigenous peoples occupied Alaska for thousands of years before the arrival of European peoples to the area.	NA	NA	NA
+w01043065	Meanwhile, additional controls of the Nile fostered development within Gezira Island and along the city's waterfront.	NA	NA	NA
+n02024008	A Swedish study has shown that animals seldom, if at all, land after the 2 month breeding period.	NA	NA	NA
+n05007014	Perhaps that 's why a surge of tears clouds his pupils while the syllable of time unearths his crop and surrenders his mystery to the bound waters.	Perhaps that 's why a surge of tears cloud his pupils while the syllable of time unearths his crop and surrenders his mystery to the bound waters.	cloud	SG -> PL
+w01061050	Medicine was also studied, especially in southern Italy, where Islamic medicine influenced the school at Salerno.	NA	NA	NA
+w01075037	Specifically, a male secondary school enrollment 10% above the average reduced the chance of a conflict by about 3%, while a growth rate 1% higher than the study average resulted in a decline in the chance of a civil war of about 1%.	NA	NA	NA
+w02001041	Founded in 1925 as games for everyman, the open air theater on the great steps in front of St. Michael still attracts a diverse public.	NA	NA	NA
+w01150047	After it became obvious that Ottoman Empire would lose all of Macedonia and its territorial connection with Albania, the Great Powers realized they had to change their decision.	NA	NA	NA
+n01075028	It was as though he was flicking the ball back and forth underneath three upturned cups.	NA	NA	NA
+w01028069	National reaction to the events in Kansas demonstrated how deeply divided the country had become.	NA	NA	NA
+w01041046	However, in Thailand, urbanization has also resulted in massive increases in problems such as obesity.	NA	NA	NA
+n01069014	Meanwhile, the estranged wife of a government whip has launched her campaign to take the seat.	NA	NA	NA
+n01093007	“Celtic Sea cod could collapse,” without the proposed limits, one EU official said.	NA	NA	NA
+n02042026	The smartphone generation received an app it deserved, where, in the best case scenario, the most idiotic situation received an audience of millions.	NA	NA	NA
+w04007021	Although not a resolver of the conflict, the French victory at the Battle of Marengo forced the Austrians to give Italy up for the second time.	NA	NA	NA
+n01131013	The GOP lead was carried by strong numbers in absentee voting, and their overall edge stood at about 16,500 earlier this week.	NA	NA	NA
+n01033005	Researchers say analysing tumour DNA may help explain the underlying causes of other cancers.	NA	NA	NA
+n03008011	"ETA is on its way out," the French contingent revealed.	NA	NA	NA
+w01119059	To avoid experiencing a similar dilemma with Jasmine, the filmmakers ultimately decided to have the princess animated entirely at one studio.	NA	NA	NA
+n01150007	"But architecture can build a bridge between the living and the dead and, to some extent, blur the boundaries."	NA	NA	NA
+w01027015	It differs from the western portion of the country in that its prominent topographic features do not parallel the coast.	It differ from the western portion of the country in that its prominent topographic features do not parallel the coast.	differ	SG -> PL
+n01026016	Shenzhen 's traffic police have opted for unconventional penalties before.	Shenzhen 's traffic police 've opted for unconventional penalties before.	've	1|3 -> 2
+w04007037	The blockage of Villeneuve's fleet resulted in giving up the invasion plan of the British Isles, also because new developments were taking place in the continent.	NA	NA	NA
+w01075038	The study interpreted these three factors as proxies for earnings forgone by rebellion, and therefore that lower forgone earnings encourage rebellion.	NA	NA	NA
+n01014003	Michael Fallon said the date for cutting the first steel would help secure new investment and safeguard hundreds of skilled jobs until 2035.	NA	NA	NA
+w01002013	Outside the extreme northwest, the taiga is dominant, covering a significant fraction of the entirety of Siberia.	NA	NA	NA
+w02013015	The Industrial Revolution took place in Great Britain earlier than in any other country.	NA	NA	NA
+n03009006	He also remarked that "the existence of such a document could lead to consequences that are as likely as they are unacceptable".	NA	NA	NA
+n01141020	The move highlighted the company's desire for users to start thinking of its products as more than just productivity tools.	NA	NA	NA
+w01148068	This time it reached him, but he refused to believe that she no longer wanted to be married to him.	NA	NA	NA
+n02027021	The law delineates a number of conditions whose fulfillment could bring the agreement back into effect: the USA would have to withdraw all of its troops from countries who joined NATO after 2000, rescind all of the sanctions against Russia as well as reimburse the costs that have been incurred as a result of the sanctions.	The law delineate a number of conditions whose fulfillment could bring the agreement back into effect: the USA would have to withdraw all of its troops from countries who joined NATO after 2000, rescind all of the sanctions against Russia as well as reimburse the costs that have been incurred as a result of the sanctions.	delineate	SG -> PL
+n01096032	Companies may try to set up a firewall between sensitive systems and foreign powers, but it does not always work.	NA	NA	NA
+n02068015	The exchange of Barrosos caused a big stir.	NA	NA	NA
+n01111018	This has not stopped investors flocking to put their money in the funds.	NA	NA	NA
+w01035083	Humans also lose direct uses of natural habitat when habitat is destroyed.	NA	NA	NA
+w01137087	In May, Czech border guards shot two Sudeten German farmers who were trying to cross the border into Czechoslovakia without stopping for border controls.	NA	NA	NA
+w01083007	This idealized vision of the Romanov monarchy blinded him to the actual state of his country.	NA	NA	NA
+n01063051	Their revivals underscore the appeal of a good challenge, artistic or otherwise: discomfort, growth, and a meaningful connection.	NA	NA	NA
+n01033031	But a scan has shown the tumour in Ms Pugh 's right lung is growing, and she has had to leave the trial.	But a scan has shown the tumour in Ms Pugh 's right lung am growing, and she has had to leave the trial.	am	3 -> 1
+w01132081	Sails are not represented in prehistoric Mesoamerican iconography or texts, instead, it is theorized that canoes were used as a primary mode of water transportation for the ancient Maya.	NA	NA	NA
+w01129019	The car burst into flames, and Kenseth walked away.	NA	NA	NA
+n02066011	The Australian experts drew new conclusions from the investigation of a landing flap from Boeing that had washed up in Tanzania in East Africa.	NA	NA	NA
+n01066093	“Complete neglect of his own health,” his wife, Alice, reported.	NA	NA	NA
+n01079065	Artists reach people at their heart; it’s the only time we meet in one place and put our differences aside.	NA	NA	NA
+w01076054	The Arab Revolt which began in 1916 turned the tide against the Ottomans on the Middle Eastern front, where they initially seemed to have the upper hand during the first two years of the war.	NA	NA	NA
+w04007049	Napoleon was confident that the clear success of Austerlitz could lead to a general peace treaty, but his hopes were soon dashed: the new British Prime Minister Lord Grenville refused any agreement, and so did Tsar Alexander.	NA	NA	NA
+n05001005	The president of the Community of Madrid, Cristina Cifuentes, represents the most conservative, while leaders of the party, such as the Sectorial Under-Secretary, Javier Maroto, represent the most progressive.	NA	NA	NA
+n01037020	But China's growing middle class has been unusually vocal in its complaints about toxic air in cities like Beijing, which can see day after day of lung-choking smog.	NA	NA	NA
+w01040102	As a steady wind begins to blow, fine particles lying on the exposed ground begin to vibrate.	NA	NA	NA
+n01048008	"These estimates coincide with the percentages of new condos entering the rental market upon completion, indicating the important role (domestic) investors play in the GTA housing market."	NA	NA	NA

@@ -1,0 +1,154 @@
+sent_id	sent_correct	sent_wrong	swap_head	feature_vals
+w01067059	Birçok yapıtının tamamlanmamasından da anlaşıldığı üzere sadece on beş yıl hüküm sürmüştür.	NA	NA	NA
+n01035004	Bu sabah bir fotoğrafın yayınlanmasına rağmen, B.C. polisi Abbotsford lisesinde bir genç kızı bıçaklayarak öldürmekle suçlanan evsiz görünüşlü bir adam hakkında cevaplardan daha fazla soruları olduğunu söylüyor.	Bu sabah bir fotoğrafın yayınlanmasına rağmen, B.C. polisi Abbotsford lisesinde bir genç kızı bıçaklayarak öldürmekle suçlanan evsiz görünüşlü bir adam hakkında cevaplardan daha fazla soruları olduğunu söylüyorlar.	söylüyorlar	SG -> PL
+n01110006	Ortalama şansa ve 10.000 Sterlin değerinde tahvillere sahip bir yatırımcı yılda 125 Sterlin ikramiye kazanabilir.	NA	NA	NA
+w01007070	Polisinin bünyesinde, devriye ve gözetleme teknelerini işleten özel bir birim bulunur.	Polisinin bünyesinde, devriye ve gözetleme teknelerini işleten özel bir birim bulunurlar.	bulunurlar	SG -> PL
+n01022002	Birleşmiş Milletler'in karbon azaltma planları üzerindeki incelemesi, bunların küresel hava sıcaklıklarındaki artışın 2 C'nin altında kalması için gereken seviyelerin çok altında olduğunu gösteriyor.	NA	NA	NA
+w05005083	Ekim 1777'de, General John Burgoyne'in komutasındaki İngiliz kuvvetleri New York eyaletinin kuzeyindeki Saratoga'da teslim olunca bir şeyler değişmeye başlamıştır.	NA	NA	NA
+n01059019	Cumhuriyetçi iktisatçılar, bu verilerin partilerinin ekonomik politikada berbat olduğunun bir kanıtı olarak görülmemesine önem veriyor.	NA	NA	NA
+n01043005	Yöneticilere de beklentileri karşıladıkları veya aştıkları için "performans ödemesi" denen bir ödeme yapıldı ve 1,5 milyon dolarlık bir tutar aralarında paylaştırıldı, yani her biri ortalama 15.000 dolarlık bir pay aldı.	Yöneticilere de beklentileri karşıladıkları veya aştıkları için "performans ödemesi" denen bir ödeme yapıldı ve 1,5 milyon dolarlık bir tutar aralarında paylaştırıldı, yani her biri ortalama 15.000 dolarlık bir pay alacaklar.	alacaklar	SG -> PL
+n05007006	O bizi bekleyen kimsenin aslında bizi beklemediğine inanıyor.	O bizi bekleyen kimsenin aslında bizi beklemediğine inanıyorlar.	inanıyorlar	SG -> PL
+n01112012	Tüketici, değişim talebini artırabilir.	NA	NA	NA
+n02011003	Essen polisi, Banka kartı verilerinin yardımıyla, bir emeklinin bankada öldüğü sırada orada durup izleyen dört kişiyi soruşturuyor.	NA	NA	NA
+n01133014	Hollandalı öğrenciler henüz elektrikli motosikletlerini ticarete dökme konusunda karar vermiş değil.	NA	NA	NA
+n01016014	Güney Koreli şirket ilk başlarda sorunun arızalı bir pilden kaynaklandığını düşündü ve kendi bileşenini üçüncü tarafa ait bir güç hücresi ile değiştirdi.	Güney Koreli şirket ilk başlarda sorunun arızalı bir pilden kaynaklandığını düşündü ve kendi bileşenini üçüncü tarafa ait bir güç hücresi ile deği̇şti̇rmedi̇ler.	deği̇şti̇rmedi̇ler	SG -> PL
+n05003010	Danışılan "%100 Cospedal" olduğunu belirtti.	NA	NA	NA
+n01002058	Söylediği ve yaptığı şeyler gerçekten inanılmaz.	NA	NA	NA
+n01120010	Doss'un hikayesi, onu daha da ilgi çekici hale getiren olağan dışı bir özelliğe sahip.	NA	NA	NA
+w01026024	Tuna Nehri üzerinde taşınan malların miktarı 1987'de yaklaşık 100 milyon tona yükselmiştir.	NA	NA	NA
+w04002055	1976'da parkur artık kullanılmıyordu; 1990'da ise bir yangın, daha sonraları ahırlarla birlikte yıkılacak olan tahta tribünlerden geri kalanları da yok etmişti.	NA	NA	NA
+n01123024	Belki de uzun süre uğraşmayacağım için önemi olmaz.	Belki de uzun süre uğraşmayacağım için önemi olmazsın.	olmazsın	3 -> 2
+n01150051	Mimarinin ölen insanlara faydası olmayacaktır, ancak ölülerin anılarını yaşayanlar için hayatta tutmaya yardımcı oluyor. diyor.	NA	NA	NA
+w01026037	Tuna Deltası'nın büyük bir kısmı Romanya'da (Tulcea bölgesi), Chilia kolunun sol kıyısındaki kuzey kısmı ise Ukrayna'da (Odessa Oblast) yer almaktadır.	NA	NA	NA
+w01035081	Tarım arazisi, manzaranın etrafındaki tahribattan zarar görebilir.	NA	NA	NA
+w01105057	O kadar başarılıydı ki ordu savaştan sonra uzun yıllar kullanmaya devam etti ve 1980'lerde bazı ülkelerde hala kullanımdaydı.	NA	NA	NA
+w01084102	Batı ile 16. yüzyılda kurulan bu temas, kârlı ticaret yollarının kurulmasıyla derin ekonomik büyüme dönemini beraberinde getirdi.	Batı ile 16. yüzyılda kurulan bu temas, kârlı ticaret yollarının kurulmasıyla derin ekonomik büyüme dönemini beraberinde getirdiler.	getirdiler	SG -> PL
+w01092032	Sanayi Devrimi, makinelerde kullanılan metal parçalar için bir talep yarattı.	Sanayi Devrimi, makinelerde kullanılan metal parçalar için bir talep yarattılar.	yarattılar	SG -> PL
+w01010044	Çeşitli Alman ve büyük Slav kabileleri, Slavların M.S. 6. yüzyılda yerleşmesinden önceki Göç Döneminde Moravia'yı geçmiştir.	NA	NA	NA
+n01084008	Yani teoride, bir çift dört Tesco hesabı açabilir ve 12.000 Sterlin üzerinden yüzde üçlük, yani 360 Sterlinlik kazanç sağlayabilir.	Yani teoride, bir çift dört Tesco hesabı açabilirler ve 12.000 Sterlin üzerinden yüzde üçlük, yani 360 Sterlinlik kazanç sağlayabilir.	açabilirler	SG -> PL
+n01105013	Ancak şu anda her şey rayından çıktı ve o sürekli sorunun cevaplarını arıyormuş gibi görünüyor.	NA	NA	NA
+n01051004	Plano, Teksas'ta ki Margaret Boemer'ın doğmamış bebeğinin ender rastlanan bir hastalığa sahip olduğu ve hayatta kalabilmesi için ameliyat yapılması gerektiğini öğrenmesiyle, rutin bir ultrasonla başlayan süreç karmaşık bir hal aldı.	Plano, Teksas'ta ki Margaret Boemer'ın doğmamış bebeğinin ender rastlanan bir hastalığa sahip olduğu ve hayatta kalabilmesi için ameliyat yapılması gerektiğini öğrenmesiyle, rutin bir ultrasonla başlayan süreç karmaşık bir hal alacaklar.	alacaklar	SG -> PL
+n01080042	Ben de onlarla izlemek istedim, ama sonunda bensiz izlemek istediklerine karar verdiler.	Ben de onlarla izlemek i̇stedi̇k, ama sonunda bensiz izlemek istediklerine karar verdiler.	i̇stedi̇k	SG -> PL
+n03004003	3 Kasım Salı günü, Saint-Gaudens Belediye Başkanı 2014'te hükümetle birlikte oluşturulan kentsel gelişim anlaşmasını askıya alma kararı verdi.	3 Kasım Salı günü, Saint-Gaudens Belediye Başkanı 2014'te hükümetle birlikte oluşturulan kentsel gelişim anlaşmasını askıya alma kararı verdiler.	verdiler	SG -> PL
+n01082014	Daha fazla insan krediye yöneliyor... Bu borçlanma şimdi yönetilebilir olsa da, ani bir koşul değişikliği borç sorunlarına yol açabilir.	Daha fazla insan krediye yöneliyorlar... Bu borçlanma şimdi yönetilebilir olsa da, ani bir koşul değişikliği borç sorunlarına yol açabilir.	yöneliyorlar	SG -> PL
+n01069006	Zengin banliyölerini 2010'a kadar temsil eden Liberal Demokratlar kendi adayları Sarah Olney ile bunu geri almayı umuyorlar.	Zengin banliyölerini 2010'a kadar temsil eden Liberal Demokratlar kendi adayları Sarah Olney ile bunu geri almayı umuyor.	umuyor	PL -> SG
+w01001049	Tüzük, kasabadan geçen kişilerin vergilendirilmesi için kasaba sakinleri tarafından yönetilen bir tüccar locası oluşturulmasını sağladı.	Tüzük, kasabadan geçen kişilerin vergilendirilmesi için kasaba sakinleri tarafından yönetilen bir tüccar locası oluşturulmasını sağladılar.	sağladılar	SG -> PL
+w05006058	Öte taraftan dış tarih, İspanyolca konuşanların geçmişi, tarihsel değişiklikleri ve dilin toplumsal kullanımı ile ilgili referanslar içerir.	NA	NA	NA
+w05010026	Fakat Senato, kendisinin rekabet etmesini yasaklayarak ve kendisine ya birliklerini geri çekme ya da halk düşmanı olma seçeneği sunarak kesinlikle cevapladığında, hangi alternatifi seçerse seçin siyasi düşmanlarına silahsız teslim olacağını anlamıştır.	NA	NA	NA
+w01144063	Cumhuriyetçiler Senato'yu 1952'den beri ilk kez ele geçirdi ve 34 sandalye aldı ancak Demokratlar çoğunluğu ellerinde tuttu.	NA	NA	NA
+w03010098	Belçikalı sanatçı 1948 baharında, Tenten'i sinemaya uyarlama umuduyla Walt Disney'e karşılık görmeyecek bir destek ricası mektubu yazdı.	Belçikalı sanatçı 1948 baharında, Tenten'i sinemaya uyarlama umuduyla Walt Disney'e karşılık görmeyecek bir destek ricası mektubu yazmamışlar.	yazmamışlar	SG -> PL
+n01090004	Motosiklet yarışına baktım ve baktıkça, 1970'lerden kalmış gibi görünen fotoğraflardan bir kadının yüzü karşıma çıkmaya devam etti.	NA	NA	NA
+w01045002	Karayipler ismi, 15. yüzyılın sonlarında Avrupa'nın burayla temas kurduğu dönemde bölgedeki baskın konuma sahip yerli Amerikan gruplarından Cariblere dayanmaktadır.	NA	NA	NA
+n01022010	Doğru yolda ilerliyoruz: BM Çevre Başkanı Erik Solheim, Paris Anlaşması'nın HFC'leri azaltma amaçlı yeni Kigali Değişikliği ile birlikte iklim değişikliğini yavaşlatacağını söyledi.	Doğru yolda ilerliyoruz: BM Çevre Başkanı Erik Solheim, Paris Anlaşması'nın HFC'leri azaltma amaçlı yeni Kigali Değişikliği ile birlikte iklim değişikliğini yavaşlatacağını söylediler.	söylediler	SG -> PL
+w04009042	Adam, kendisinin ve Walter'ın tahmin ettiği gibi, iki evren arasında bir savaşın geldiğini söylemiştir; bu nedenle, Olivia, diğerlerinin yanında, bir çocukken eğitim görmüştür.	NA	NA	NA
+w01132042	Petén bölgesinden ve Uaxactun'dan gelen verilerin ortaya koyduğu yapılar, bu alanların Maya arazisinin kültürel gelişimine uymasını sağladı.	NA	NA	NA
+n01049022	Şirketin esrarın yasal olarak satıldığı Colorado Denver'daki genel merkezinden Dietrich, "Bu, bel ağrısına iyi geliyor; bu, mide bulantısına iyi geliyor; bu ürün ise gece uyumanıza yardımcı olur." diye açıklıyor.	NA	NA	NA
+n01053041	Sesini gerçek anlamda tüm dünyaya duyurdu. dedi Leive.	NA	NA	NA
+n01133022	Harley-Davidson sözcüsü, medyada yer alan zaman çizelgelerinin (2017 veya 2020) doğru olmadığını bildirdi.	Harley-Davidson sözcüsü, medyada yer alan zaman çizelgelerinin (2017 veya 2020) doğru olmadığını bildirdiler.	bildirdiler	SG -> PL
+w02013033	Süveyş Krizi, değişen bir dünyada Büyük Britanya ve Fransa gibi eski sömürge güçlerinin sınırlarını gösterdi.	Süveyş Krizi, değişen bir dünyada Büyük Britanya ve Fransa gibi eski sömürge güçlerinin sınırlarını gösterdiler.	gösterdiler	SG -> PL
+w03005014	M.Ö. 9. yüzyıldan itibaren ilk Yunanca metinler ortaya çıkmaya başlamıştır.	NA	NA	NA
+n01107006	Ayrıca VW'yi büyük tazminat iddialarına ve yasal işlemlere açık hale getirdi ve bunun 16 milyar avrodan fazla fona mal olacağı görüldü.	NA	NA	NA
+w01125034	Wilkes, Avam Kamarası'nın adaylığını geçersiz sayıldığına karar verip arkasından geleni galip ilan etmesine kadar iki kez daha seçilmiş ve kovulmuştu.	NA	NA	NA
+n01085011	Ne kadar şaşırtıcı da olsa, her işte bir hayır vardır, asit yağmurunda bile.	NA	NA	NA
+w01053062	O tarihte bir artık ay bile söz konusu olsa son tarih sadece bir Cuma gününe denk gelebilir ancak bu Newton'un tarih ettiği bir durumdu.	NA	NA	NA
+w01025084	Avusturya-Prusya ordusu bu geri çekilme karşısında şaşırdı ve Danimarka ordusunun neredeyse tamamı tahliyeyi başarıyla tamamladı.	Avusturya-Prusya ordusu bu geri çekilme karşısında şaşırdı ve Danimarka ordusunun neredeyse tamamı tahliyeyi başarıyla tamamlamışlar.	tamamlamışlar	SG -> PL
+n02031071	Bir Türk çalışanı bırakırsa sıra Türk iş konseylerine gelir.	Bir Türk çalışanı bırakırsa sıra Türk iş konseylerine gelirsiniz.	gelirsiniz	SG -> PL
+n01073004	Avustralya'nın bu yanını kim durdurabilir?	NA	NA	NA
+n01006011	Görgü tanığı, mağdurun Nisan'da şüpheliye saldırdığını polise söyledi.	Görgü tanığı, mağdurun Nisan'da şüpheliye saldırdığını polise söylediler.	söylediler	SG -> PL
+n01112014	Ocak ayında yayınlanan önemli bir raporda, dünyada çöplerin denizlere sızmasını önlemek için ciddi anlamda harekete geçilmediği sürece, 2050 yılında okyanuslarda balıktan çok plastik olacağı söyleniyor.	NA	NA	NA
+n01035013	B.C. polisi Klein'in suç geçmişi olmadığını ve yakın zamanda nerede olduğuyla ilgili net olmayan ayrıntılar verdiğini belirtmişti.	NA	NA	NA
+n01108005	Müşteriler memnun kaldıkça, perakendeci ve toptancı iş yerleri genişledi ve tüketici hizmetleri şirketleri de büyüdü.	NA	NA	NA
+w01072079	İmparator Caracalla 3. yüzyılda kısa bir süre geçerli olan yeni bir bölünme uygulamıştır.	NA	NA	NA
+w01007087	Mevcut arazi ıslah projeleri, Fontvieille bölgesinin genişletilmesini içeriyor.	NA	NA	NA
+n01043014	Yıllık bütçesi 1,4 milyar dolardan fazladır ve 6.000'den fazla kişiyi istihdam etmektedir.	NA	NA	NA
+w01056103	Bir zamanlar Latium'dan tüm İtalya'ya yapıldığı gibi devletin ekonomik ve yargı mekanizmalarının Akdeniz'de uygulanabileceği entegrasyonun temelini oluşturdu.	NA	NA	NA
+n01035025	Şüphelinin bu okulla, ya da iki kızla, ya da özellikle Abbotsford bölgesi ile ilgili özel bir bağı olduğunu düşünmüyoruz.	NA	NA	NA
+w01099012	Müziğin menşei ile ilgili açıklamalar, müziğin nasıl tanımlandığına bağlıdır.	NA	NA	NA
+n01074030	Buna karşı gelmek zorundasın ve birinin etrafımda koşmasındansa üzerime koşmasını tercih ederim.	NA	NA	NA
+n01002017	Cumhuriyetçi Parti Başkan adayı Trump, göç kısıtlamasına dair yaptığı önceki açıklamaların aksine, başkan olursa "liyakat sistemi"ne dayanarak "muazzam sayıda" yasal göçmenin ülkeye girişini onaylayacağını açıkladı.	NA	NA	NA
+w01150044	Büyük Güçler Arnavutluk'un tanınmasına ilişkin talepleri yerine getirmedi.	NA	NA	NA
+n01027041	Ardından ona insanların neden Trump'a oy verebileceğini anlayıp anlamadığını sordum.	NA	NA	NA
+n03007003	Sözü edilen maddede müşteri ziyaretlerinde ulaşımda geçen süre de çalışma saatlerine dahil edilmiştir.	NA	NA	NA
+n04007015	Belirtildiği gibi, karar ECB'nin imtiyazında dır ve Bankanın diğer alternatifleri gözden geçirme şansını yok sayarak onun adına konuşması uygun olmaz.	Belirtildiği gibi, karar ECB'nin imtiyazında dır ve Bankanın diğer alternatifleri gözden geçirme şansını yok sayarak onun adına konuşmaları uygun olmaz.	konuşmaları	SG -> PL
+n02011018	Sözcü, diğerlerinin de soruşturulması olasılığını dışlamadı.	Sözcü, diğerlerinin de soruşturulması olasılığını dışlamadılar.	dışlamadılar	SG -> PL
+n05002004	Son altı yıldır ilk kez işsizlik oranı yüzde 20'nin altına düştü ve bir yıl öncesine göre 600.000 kişi daha istihdam edildi.	Son altı yıldır ilk kez işsizlik oranı yüzde 20'nin altına düştüler ve bir yıl öncesine göre 600.000 kişi daha istihdam edildi.	düştüler	SG -> PL
+w01079049	1538'de İspanyol Engizisyonu üyelerine, Malleus'un söylediği her şeye inanmamaları konusunda uyardı.	1538'de İspanyol Engizisyonu üyelerine, Malleus'un söylediği her şeye inanmamaları konusunda uymadım.	uymadım	3 -> 1
+w01125037	George, gevşek ahlaki tutum olarak gördüğü bu durum karşısında dehşete düştü.	NA	NA	NA
+n01061041	2016 Başkanlık seçimlerinde sinirler gerildikçe, Karel'i saçmalıktan daha rahatsız verici bir tehlike meşgul etmeye başladı.	NA	NA	NA
+n01002032	North Carolina Üniversitesi'ndeki sahada toplanmış kalabalığa "Size baskı yapmak istemem ama halkın kaderi sizin elinizde." dedi.	NA	NA	NA
+n01022016	Bu alandaki yatırımlar 2015 yılında yüzde 6 artarak 221 milyar dolara yükseldi.	NA	NA	NA
+w01150045	Altı Büyük Güç'ün büyükelçileri, Aralık 1912'deki Londra konferansının başında, bağımsız bir Arnavutluk kurma planını reddetti.	NA	NA	NA
+n04006014	En son rakamlar geçtiğimiz yıl 24 Ekim tarihine ait ve kullandığımız dizel yakıtın avro bölgesi ortalaması olan 1,165 avroya kıyasla litre başına 1,335 avroya mal olduğunu gösteriyor.	NA	NA	NA
+n01053008	Leive, yakın zamanda yapılan bir röportajda, "Bazıları bunu anlıyor ve Bono da bu insanlardan biri." dedi.	NA	NA	NA
+w01009017	Hava kütlesi tanımlaması ilk olarak 1950'lerde hava tahminlerinde kullanılmışken, iklimbilimciler 1973'te bu fikri temel alan sinoptik klimatolojileri kurmaya başlamışlardır.	NA	NA	NA
+n05008018	İlk oylama, bu kez daha fazla Latin Amerikalının oy kullanmaya geleceğini gösteriyor, ancak bu artışın bir etkisinin olup olmayacağı belli değil.	NA	NA	NA
+w01142013	Kızları Cecily, York 3. Dükü Richard Plantagenet'le evlendiğinde ve Edward IV ile Richard III dahil birkaç çocuk sahibi olduklarında, Joan İngiltere'deki iki York kralının büyükannesi oldu.	NA	NA	NA
+n01106008	Yıllık ankette ayrıca, yeni mali yük altına girmekle ilgili endişelerin oldukça arttığını da ortaya koydu.	NA	NA	NA
+n01109008	Maliyet aylık olarak değişecektir ve kışın kullanım arttıkça fiyatın artması beklenmektedir.	NA	NA	NA
+n01024013	Bu deneyden elde edilen sonuçlar, roket tohumlarının Dünyadaki çimlenme ve yetişme yetenekleri herhangi bir şekilde etkilenmeden Uluslararası Uzay İstasyonuna götürülüp altı ay boyunca saklanabileceği tezini iyice desteklemektedir.	NA	NA	NA
+w01032139	Küresel ısınma, yağışlı mevsimlerin yapısında bir değişikliğe neden oldu.	NA	NA	NA
+n01021012	Analiz, bozulmaya sebep olmak için inanılmaz boyutta verilerin kullanıldığını ortaya koydu.	NA	NA	NA
+n01101012	Pekin yanlısı milletvekillerince yönetilen Hong Kong hükumeti, ikilinin görev almaması gerektiğini savundu.	Pekin yanlısı milletvekillerince yönetilen Hong Kong hükumeti, ikilinin görev almaması gerektiğini savundular.	savundular	SG -> PL
+w01100049	1856'da İkinci Afyon Savaşı patlak verdi; Çinliler yine yenildi ve 1858 Tientsin Antlaşması ve 1860 Pekin Sözleşmesi şartlarına tabi tutuldular.	NA	NA	NA
+w01091045	Bazı hayvanlar doğrudan bir besin kaynağı olmanın yanı sıra deri, yün, post ve gübre sağlayabilir.	NA	NA	NA
+w02009025	Olay, Paris'te biliniyordu ve halihazırda ekmek fiyatının oldukça yüksek olması ve erzak bulunmaması nedeniyle zaten kötü olan genel havayı iyice olumsuz etkiledi.	NA	NA	NA
+w01086037	1563 itibarıyla Venedik nüfusu yaklaşık 168.000 kişiye düşmüştü.	1563 itibarıyla Venedik nüfusu yaklaşık 168.000 kişiye düşmüştüm.	düşmüştüm	3 -> 1
+w01051080	Nitekim, savaş hakkında 1903'te James Henry Breasted tarafından hazırlanan ilk bilimsel rapor, savaş sonrası yeniden yapılanmaya kesin olarak izin veren kaynaklara övgüde bulunmuştur.	Nitekim, savaş hakkında 1903'te James Henry Breasted tarafından hazırlanan ilk bilimsel rapor, savaş sonrası yeniden yapılanmaya kesin olarak izin veren kaynaklara övgüde bulunmuşlardır.	bulunmuşlardır	SG -> PL
+n02082017	Kirleticiler küçük yaştakilerin gelişmemiş akciğerlerine saldırmanın yanı sıra ergen beyninin gelişiminde uzun vadeli bozulmaya da yol açabilirler.	NA	NA	NA
+n01057014	Enkaz, Dünya ekvatorunun etrafında bir halka halini aldı ve nihayetinde ayı oluşturmak üzere yerçekimi ile bir araya getirildi.	Enkaz, Dünya ekvatorunun etrafında bir halka halini alacaklar ve nihayetinde ayı oluşturmak üzere yerçekimi ile bir araya getirildi.	alacaklar	SG -> PL
+w01080131	Makedonya ordusu, Yunanistan'ı ikiye ayıran Thermopylae'nin geçidine kadar ilerledi; ancak Atinalılar, Spartalılar ve Akhalar'dan oluşan ortak bir kuvvet tarafından güçlü bir şekilde korunduğundan alma girişiminde bulunmadı.	Makedonya ordusu, Yunanistan'ı ikiye ayıran Thermopylae'nin geçidine kadar ilerlemelerle; ancak Atinalılar, Spartalılar ve Akhalar'dan oluşan ortak bir kuvvet tarafından güçlü bir şekilde korunduğundan alma girişiminde bulunmadı.	ilerlemelerle	SG -> PL
+w01048027	1350'lerde, Kral Gongmin, Yuan hanedanı çökmeye başladığında Goryeo hükümetini reform etmede özgürleşti.	NA	NA	NA
+w01125035	Grafton'un hükümetinin 1770 yılında parçalanması, Lord North liderliğindeki muhafazakarların iktidara dönmesini sağladı.	NA	NA	NA
+n01045035	Duffy'nin dolandırıcılık ve emaneti suistimal davasının yargıcı, sonuçta Duffy'yi tüm suçlamalardan akladığında bunların Senato'nun kuralları çerçevesinde gerçekleştiği kararını vermişti.	Duffy'nin dolandırıcılık ve emaneti suistimal davasının yargıcı, sonuçta Duffy'yi tüm suçlamalardan akladığında bunların Senato'nun kuralları çerçevesinde gerçekleştiği kararını vermişlerdi.	vermişlerdi	SG -> PL
+n01150031	Hindistan'da insanlar yaşlılıktan öldüğünde bunun bir kutlama olması gerekiyor.	Hindistan'da insanlar yaşlılıktan öldüğünde bunun bir kutlama olmaları gerekiyor.	olmaları	SG -> PL
+n01134005	ABD hisse senedi beklentileri Avrupa pazarlarıyla birlikte yüzde birden fazla artış gösteriyor.	NA	NA	NA
+w01038044	Çok sayıda yerli halk Alaska'da, Avrupa halklarının bölgeye gelmesinden önce binlerce yıl boyunca yaşadı.	Çok sayıda yerli halk Alaska'da, Avrupa halklarının bölgeye gelmesinden önce binlerce yıl boyunca yaşıyorlardı.	yaşıyorlardı	SG -> PL
+w01043065	Bu arada, Nil'i kontrol altına almaya yönelik çabalar, Gezira Adası ile kentin su kıyısındaki kalkınmayı teşvik etti.	NA	NA	NA
+n02024008	İsveç'te yapılan bir araştırma, hayvanların 2 aylık üreme döneminden sonra nadiren yere indiğini göstermiştir.	NA	NA	NA
+n05007014	Belki de bu yüzden gözyaşı bulutları göz bebeklerini bulandırırken, zamanın akışı hasadını ortaya çıkarıp, gizemini durgun sulara salıyordu.	NA	NA	NA
+w01061050	Tıp çalışmaları, özellikle İslam tıbbının Salerno'daki okulu etkilediği güney İtalya'da da yürütülüyordu.	NA	NA	NA
+w01075037	Spesifik olarak, erkeklerin orta öğretime kayıt ortalamasında ortalamanın %10 üstünde bir büyüme oranı, bir çatışma ihtimalini yaklaşık % 3 azaltırken çalışma ortalamasından %1 daha yüksek bir artış iç savaş ihtimalinde %1'lik bir düşüşe yol açmıştır.	NA	NA	NA
+w02001041	1925'te "herkes için oyun" ilkesiyle kurulan St. Michael'in karşısındaki açık hava tiyatrosu hâlâ her kesimden halkı cezbetmektedir.	NA	NA	NA
+w01150047	Büyük Güçler Osmanlı İmparatorluğu'nun tüm Makedonya'yı ve Arnavutluk'la olan toprak bağlantısını kaybedeceği anlaşıldıktan sonra kararlarını değiştirmeleri gerektiğini fark ettiler.	NA	NA	NA
+n01075028	Sanki topu ters çevrilmiş üç bardağın altında ileri geri fırlatıyor gibiydi.	NA	NA	NA
+w01028069	Kansas'taki olaylara verilen ulusal tepkiler ülkenin ne kadar derinden bölündüğünü göstermiştir.	NA	NA	NA
+w01041046	Bununla birlikte, şehirleşme Tayland'da obezite gibi sorunlarda da büyük artışlara neden oldu.	NA	NA	NA
+n01069014	Bu arada, parti denetçisinin ayrıldığı eşi, koltuğu kapmak için kendi kampanyasını başlattı.	Bu arada, parti denetçisinin ayrıldığı eşi, koltuğu kapmak için kendi kampanyasını başlattılar.	başlattılar	SG -> PL
+n01093007	Bir AB yetkilisi, önerilen kısıtlamalar olmadan "Kelt Denizinde ki morina balığı nüfusu yok olabilir." dedi.	Bir AB yetkilisi, önerilen kısıtlamalar olmadan "Kelt Denizinde ki morina balığı nüfusu yok olabilir." dediler.	dediler	SG -> PL
+n02042026	Akıllı telefon nesli en aptalca durumun en iyi senaryoda milyonlarca seyirciye ulaştığı, hak ettiği bir uygulamaya kavuştu.	Akıllı telefon nesli en aptalca durumun en iyi senaryoda milyonlarca seyirciye ulaştığı, hak ettiği bir uygulamaya kavuşacaklardı.	kavuşacaklardı	SG -> PL
+w04007021	Çatışmaya çözüm getirmese de, Fransa'nın Marengo Savaşı'ndaki zaferi Avusturyalıları İtalya'dan ikinci kez vazgeçmeye zorlamıştır.	NA	NA	NA
+n01131013	Cumhuriyetçi Parti gıyabında kullanılan çok sayıda oy ile başı çekiyordu ve genel seviye bu hafta başlarında yaklaşık 16.500 oldu.	NA	NA	NA
+n01033005	Araştırmacılar, tümör DNA'sının analiz edilmesinin diğer kanserlerin altında yatan nedenleri anlamaya yardımcı olabileceğini söylüyor.	NA	NA	NA
+n03008011	Fransız grup, "ETA yola çıktı" şeklinde açıklama yaptı.	Fransız grup, "ETA yola çıktı" şeklinde açıklama yaptılar.	yaptılar	SG -> PL
+w01119059	Sonunda film yapımcıları Jasmine ile benzer bir ikilem yaşamaktan kaçınmak için prensesi bir stüdyoda canlandırmaya karar verdiler.	Sonunda film yapımcıları Jasmine ile benzer bir ikilem yaşamaktan kaçınmak için prensesi bir stüdyoda canlandırmaya karar verdi.	verdi	PL -> SG
+n01150007	Ancak mimari, yaşayanlar ile ölüler arasında bir köprü oluşturabilir ve bir dereceye kadar sınırları bulanıklaştırabilir.	NA	NA	NA
+w01027015	Ülkenin batı kısmından farklılaşır; çünkü belirgin topografik özellikleri kıyıya paralel değildir.	NA	NA	NA
+n01026016	Shenzhen trafik polisi daha önce alışılmamış cezalara başvurmuş.	Shenzhen trafik polisi daha önce alışılmamış cezalara başvururlardı.	başvururlardı	SG -> PL
+w04007037	Villeneuve'in filosunun engellenmesi, Britanya Adaları'nın işgal edilmesi planından vazgeçilmesine yol açtı; çünkü kıtada aynı zamanda yeni gelişmeler yaşanmaktaydı.	NA	NA	NA
+w01075038	Bu üç faktör çalışmada, ayaklanma yüzünden kaybolan kazançların yansıması olarak yorumlanmış ve bu nedenle daha düşük kazanç isyanı teşvik etmiştir.	NA	NA	NA
+n01014003	Michael Fallon, işe başlama tarihinin yeni yatırımların güvenliğinin sağlanmasına ve 2035 yılına kadar yüzlerce nitelikli işin korunmasına yardımcı olacağını açıkladı.	NA	NA	NA
+w01002013	Sibirya'nın tamamının önemli bir bölümünü kaplayan tayga, kuzeybatının en uçları dışında baskın durumdadır.	NA	NA	NA
+w02013015	Sanayi Devrimi, İngiltere'de diğer tüm ülkelerden daha önce gerçekleşti.	NA	NA	NA
+n03009006	Aynı zamanda, "Bu tip bir evrağın mevcudiyeti, kabul edilemez sonuçlara sebebiyet verebilir." dedi.	Aynı zamanda, "Bu tip bir evrağın mevcudiyeti, kabul edilemez sonuçlara sebebiyet veremezler." dedi.	veremezler	SG -> PL
+n01141020	Hareket, şirketin kullanıcılarını ürünlerini sadece verimlilik araçları olarak görmekten vazgeçirme isteğini vurguladı.	Hareket, şirketin kullanıcılarını ürünlerini sadece verimlilik araçları olarak görmekten vazgeçirme isteğini vurguladılar.	vurguladılar	SG -> PL
+w01148068	Bu sefer ona ulaştı, ancak artık kendisiyle evlenmek istemediğine inanmayı reddetti.	NA	NA	NA
+n02027021	Yasa, yerine getirilmesi anlaşmayı tekrar yürürlüğe sokabilecek bir dizi durumu tasvir eder: ABD'nin tüm birliklerini, 2000 yılından sonra NATO'ya katılan ülkelerden geri çekmesi, Rusya'ya karşı tüm yaptırımlarını iptal etmesi ve yaptırımların sonucunda tahakkuk eden maliyetleri karşılaması gerekecektir.	NA	NA	NA
+n01096032	Şirketler hassas sistemler ve dış güçler arasına bir güvenlik duvarı inşa etmeyi deneyebilir, ancak bu her zaman işe yaramaz.	Şirketler hassas sistemler ve dış güçler arasına bir güvenlik duvarı inşa etmeyi deneyebilir, ancak bu her zaman işe yarıyoruz.	yarıyoruz	SG -> PL
+n02068015	Barroso'ların alışverişi büyük bir heyecana yol açtı.	NA	NA	NA
+n01111018	Bu yatırımcıların paralarını fonlara yatırmak için akın etmesini durdurmadı.	NA	NA	NA
+w01035083	İnsanlar, habitat yok edildiğinde doğal yaşam alanlarının doğrudan kullanımını da kaybederler.	NA	NA	NA
+w01137087	Çek sınır muhafızları Mayıs'ta sınır kontrolü için durmadan Çekoslovakya sınırını geçmeye çalışan iki Sudeten Alman çiftçisini vurdu.	NA	NA	NA
+w01083007	Romanov monarşisinin idealize edilmiş vizyonu, onun ülkesinin gerçek durumunu görmesini engelledi.	Romanov monarşisinin idealize edilmiş vizyonu, onun ülkesinin gerçek durumunu görmesini engellediler.	engellediler	SG -> PL
+n01063051	Yeniden canlandırmaları, sanatsal veya başka türlü iyi bir meydan okuma çağrısını vurgular: rahatsızlık, büyüme ve anlamlı bir bağlantı.	NA	NA	NA
+n01033031	Ancak yapılan tarama sonucunda Bayan Pugh'nun sağ akciğerinde ki tümörün büyümekte olduğu ortaya çıktı ve deneme tedavisini bırakmak zorunda kaldı.	Ancak yapılan tarama sonucunda Bayan Pugh'nun sağ akciğerinde ki tümörün büyümekte olmaları ortaya çıktı ve deneme tedavisini bırakmak zorunda kaldı.	olmaları	SG -> PL
+w01132081	Yelkenler, tarih öncesi Mezo Amerikalı ikonografisinde ya da metinlerde temsil edilmemektedir; bunun yerine, kanoların antik Maya için birincil su taşımacılığı modeli olarak kullanıldığı teorisine göre hazırlanmıştır.	NA	NA	NA
+w01129019	Araba alevlerin içinde kalırken Kenseth uzaklaşıyordu.	NA	NA	NA
+n02066011	Avustralyalı uzmanlar, Boeing'in Doğu Afrika'da Tanzanya sularında bulunan bir iniş kanadının incelenmesiyle yeni sonuçlara ulaştı.	NA	NA	NA
+n01066093	Eşi Alice, "Kendi sağlığını tamamen ihmal etmesi." dedi.	Eşi Alice, "Kendi sağlığını tamamen ihmal etmesi." dediler.	dediler	SG -> PL
+n01079065	Sanatçılar insanların kalplerine ulaşır; bir yerde buluşup farklılıklarımızı bir kenara koyabildiğimiz tek zaman bu.	NA	NA	NA
+w01076054	1916'da başlayan Arap İsyanı, başta savaşın ilk iki yılında Orta Doğu cephesinde üstünlük kuran Osmanlı aleyhine döndürmüştür.	NA	NA	NA
+w04007049	Napolyon, Austerlitz'in açık başarısının genel bir barış antlaşmasına dönüşebileceğinden emin di , ancak umutları kısa sürede tükendi: yeni İngiliz Başbakanı Lord Grenville de, Çar Alexander da herhangi bir anlaşma yapılmasını reddetti.	Napolyon, Austerlitz'in açık başarısının genel bir barış antlaşmasına dönüşebileceğinden emin di , ancak umutları kısa sürede tükendi: yeni İngiliz Başbakanı Lord Grenville de, Çar Alexander da herhangi bir anlaşma yapılmasını reddettiler.	reddettiler	SG -> PL
+n05001005	En muhafazakarları temsil eden Cristina Cifuentes ve Sektörel Müsteşar Javier Maroto gibi partinin liderleri en ilerici kesimin temsilcileridir.	NA	NA	NA
+n01037020	Ancak Çin'in büyüyen orta sınıfı, Pekin gibi nefes almayı zorlaştıran bir is bulutu içerisinde günlerini geçiren şehirlerdeki zehirli hava kirliliğiyle ilgili şikayetlerinde beklenmedik bir şekilde ısrarcı olmuştur.	NA	NA	NA
+w01040102	Sabit bir rüzgar esmeye başlayınca, açık alandaki ince parçacıklar titreşim oluşturmaya başlar.	NA	NA	NA
+n01048008	Bu tahminler, tamamlandıktan sonra kiralık ev pazarına dahil olan yeni evlerin yüzdesiyle örtüşmektedir ve bu da (yerli) yatırımcıların GTA konut piyasasında önemli rol oynadığının göstergesidir .	NA	NA	NA
